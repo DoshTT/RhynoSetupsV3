@@ -16,7 +16,7 @@ img {
 }
 
 body {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .navbar {
@@ -75,17 +75,25 @@ a:hover {
 }
 
 .col-md-4 {
-    background-color: #76b900;
+    background-color: #d3d3d3;
 }
 
 .col-md-3 {
-    background-color: #76b900;
+    background-color: #d3d3d3;
 }
 
 .col-md-6 {
-    background-color: #76b900;
+    background-color: #d3d3d3;
 }
 
 .col-12 {
-    background-color: #76b900;
+    background-color: #d3d3d3;
+}
+
+.p1 {
+    font-family: fantasy;
+}
+
+.card {
+    background-color: #d3d3d3;
 }
