@@ -12,5 +12,4 @@
                 form.classList.add('se validó el dato')
             }, false)
         })
-})() <
-/script>
+})()
