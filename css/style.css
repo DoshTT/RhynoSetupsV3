@@ -16,7 +16,7 @@ img {
 }
 
 body {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .navbar {
@@ -88,4 +88,12 @@ a:hover {
 
 .col-12 {
     background-color: #76b900;
+}
+
+.p1 {
+    font-family: fantasy;
+}
+
+.card {
+    background-color: #d3d3d3;
 }
