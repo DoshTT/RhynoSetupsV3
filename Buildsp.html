@@ -13,41 +13,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<style>
-    header {
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    ul {
-        display: flex;
-        background-color: gray;
-        justify-content: center;
-        border-radius: 10px;
-        width: 400px;
-        padding-left: 0px;
-        margin: 0 auto;
-    }
-    
-    ul li {
-        list-style: none;
-        margin: 15px;
-    }
-    
-    a {
-        text-decoration: none;
-        padding: 0;
-    }
-    
-    a:hover {
-        color: #40041d;
-    }
-</style>
 
 <body>
     <!-- BARRA DE NAVEGACIÓN -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand barraMenu" href="#">RhynoSetups</a>
+        <a class="navbar-brand barraMenu" href="index.html">RhynoSetups</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -74,59 +44,74 @@
     <section>
         <form class="row g-3 needs-validation" novalidate>
             <div class="col-md-4">
-                <label for="validationCustom01" class="form-label">First name</label>
-                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                <label for="validationCustom01" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="validationCustom01" value="Juan" required>
                 <div class="valid-feedback">
-                    Looks good!
+                    Correcto
                 </div>
             </div>
             <div class="col-md-4">
-                <label for="validationCustom02" class="form-label">Last name</label>
-                <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                <label for="validationCustom02" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="validationCustom02" value="Perez" required>
                 <div class="valid-feedback">
-                    Looks good!
+                    Correcto
                 </div>
             </div>
             <div class="col-md-4">
-                <label for="validationCustomUsername" class="form-label">Username</label>
+                <label for="validationCustomUsername" class="form-label">Correo Electronico</label>
                 <div class="input-group has-validation">
                     <span class="input-group-text" id="inputGroupPrepend">@</span>
                     <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
                     <div class="invalid-feedback">
-                        Please choose a username.
+                        Coloca tu Correo Electronico
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <label for="validationCustom03" class="form-label">City</label>
+                <label for="validationCustom03" class="form-label">Ciudad</label>
                 <input type="text" class="form-control" id="validationCustom03" required>
                 <div class="invalid-feedback">
-                    Please provide a valid city.
+                    Selecciona una Ciudad Valida
                 </div>
             </div>
             <div class="col-md-3">
-                <label for="validationCustom04" class="form-label">State</label>
+                <label for="validationCustom04" class="form-label">Región</label>
                 <select class="form-select" id="validationCustom04" required>
-                <option selected disabled value="">Choose...</option>
-                <option>...</option>
-              </select>
+            <option selected disabled value="">Choose...</option>
+            <option>Arica</option>
+            <option>Tarapacá</option>
+            <option>Antofagasta</option>
+            <option>Atacama</option>
+            <option>Coquimbo</option>
+            <option>Valparaiso</option>
+            <option>Metropolitana</option>
+            <option>O'higgins</option>
+            <option>Maule</option>
+            <option>Ñuble</option>
+            <option>Bio Bio</option>
+            <option>Arucania</option>
+            <option>Los Ríos</option>
+            <option>Aysén</option>
+            <option>Magallanes</option>
+
+          </select>
                 <div class="invalid-feedback">
-                    Please select a valid state.
+                    Selecciona una Región
                 </div>
             </div>
             <div class="col-md-3">
-                <label for="validationCustom05" class="form-label">Zip</label>
+                <label for="validationCustom05" class="form-label">Dirección</label>
                 <input type="text" class="form-control" id="validationCustom05" required>
                 <div class="invalid-feedback">
-                    Please provide a valid zip.
+                    Coloca tu dirección
                 </div>
             </div>
             <div class="col-12">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                     <label class="form-check-label" for="invalidCheck">
-                  Agree to terms and conditions
-                </label>
+              Agree to terms and conditions
+            </label>
                     <div class="invalid-feedback">
                         You must agree before submitting.
                     </div>
@@ -135,7 +120,6 @@
             <div class="col-12">
                 <button class="btn btn-primary" type="submit">Submit form</button>
             </div>
-
         </form>
     </section>
 
@@ -143,7 +127,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js "></script>
-    <script src="script.js"></script>
 
 </body>
 
