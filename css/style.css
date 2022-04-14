@@ -16,8 +16,11 @@ img {
 }
 
 body {
-    background-color: #E5E5E5;
-    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
+#Contacto-fondo{
+    background-color: #a9a9a9 ;
 }
 
 .navbar {
@@ -46,6 +49,35 @@ body {
     display: flex;
 }
 
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    border-radius: 10px;
+    width: 400px;
+    padding-left: 0px;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+}
+
+a:hover {
+    color: #40041d;
+}
+
 .col-md-4 {
     background-color: #d3d3d3;
 }
@@ -70,6 +102,28 @@ body {
     background-color: #d3d3d3;
 }
 
+.login-container a {
+    color: #bcbcbc;
+    float: right;
+    padding: 6px 10px;
+    margin-top: 6px;
+    margin-right: 16px;
+    background-color: #555;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.login-container a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-item {
+    margin: auto;
+}
+
 .formulario {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -83,9 +137,23 @@ body {
     cursor: pointer;
 }
 
-.formulario__grupo-input {
+.formulario__grupo-input #correo {
     position: relative;
+    padding: 0;
 }
+.formulario__grupo-input #telefono {
+    position: relative;
+    padding: 0;
+}
+.formulario__grupo-input #usuario {
+    position: relative;
+    padding: 0;
+}
+.formulario__grupo-input #nombre {
+    position: relative;
+    padding: 0;
+}
+
 
 .formulario__input {
     width: 100%;
@@ -97,6 +165,9 @@ body {
     padding: 0 40px 0 10px;
     transition: .3s ease all;
 }
+.formulario__grupo-input #consulta {
+    position: relative;
+    padding-bottom: 300px;}
 
 .formulario__input:focus {
     border: 3px solid #0075FF;
@@ -221,24 +292,10 @@ body {
 }
 
 
-.login-container a {
-    color: #bcbcbc;
-    float: right;
-    padding: 6px 10px;
-    margin-top: 6px;
-    margin-right: 16px;
-    background-color: #555;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-}
+/*Responsividad*/
 
-.login-container a:hover {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.nav-item {
-    margin: auto;
+@media (max-width: 850px) {
+    .login-container {
+        align-items: center;
+    }
 }
