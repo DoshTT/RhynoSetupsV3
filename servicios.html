@@ -7,11 +7,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <main>
+        <form action="" class="contacto" id="contacto">
+
+            <div class="contacto_grupo" id="grupo_nombres">
+                <label for="nombres" class="contacto_label">Nombres</label>
+                <div class="contacto_grupo-input">
+                    <input type="text" class="contacto_input" name="nombres" id="nombres" placeholder="Juan Andrés">
+                    <i class="contacto_valiadacion-estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="contacto_input_error">Los nombres no pueden estar en blanco</p>
+            </div>
+
+            <div class="contacto_grupo" id="grupo_apellidos">
+                <label for="apellidos" class="contacto_label">Apellidos</label>
+                <div class="contacto_grupo-input">
+                    <input type="text" class="contacto_input" name="apellidos" id="apellidos" placeholder="Peréz García">
+                    <i class="contacto_valiadacion-estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="contacto_input_error">Los apellidoss no pueden estar en blanco</p>
+            </div>
 
 
+        </form>
+    </main>
+
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
