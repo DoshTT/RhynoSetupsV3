@@ -219,3 +219,26 @@ body {
         width: 100%;
     }
 }
+
+
+.login-container a {
+    color: #bcbcbc;
+    float: right;
+    padding: 6px 10px;
+    margin-top: 6px;
+    margin-right: 16px;
+    background-color: #555;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.login-container a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-item {
+    margin: auto;
+}
