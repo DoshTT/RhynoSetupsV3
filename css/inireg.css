@@ -8,6 +8,9 @@
 
 #inicio-foto {
     background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
 
 .form-register {
