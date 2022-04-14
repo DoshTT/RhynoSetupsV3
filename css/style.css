@@ -211,3 +211,8 @@ a:hover {
 .formulario__mensaje-exito-activo {
     display: block;
 }
+
+.formulario__texto {
+    width: 1px;
+    height: 1px;
+}
