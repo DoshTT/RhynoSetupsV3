@@ -170,6 +170,8 @@ a:hover {
 .formulario__grupo-input #consulta {
     position: relative;
     padding-bottom: 300px;
+    width: 150px;
+    height: 150px;
 }
 
 .formulario__input:focus {
