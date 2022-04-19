@@ -167,7 +167,7 @@ a:hover {
     transition: .3s ease all;
 }
 
-.formulario__grupo-input #consulta {
+.formulario__texto-input #consulta {
     position: relative;
     padding-bottom: 300px;
     width: 150px;
