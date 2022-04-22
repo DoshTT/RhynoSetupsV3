@@ -10,11 +10,10 @@ const expresiones = {
 }
 
 const campos = {
-    usuario: false,
     nombre: false,
-    password: false,
     correo: false,
-    telefono: false
+    telefono: false,
+    texto: false,
 }
 
 
@@ -31,6 +30,10 @@ const validarFormulario = (e) => {
         case "telefono":
             validarCampo(expresiones.telefono, e.target, 'telefono');
             break;
+
+        case "texto":
+            validarCampo(expresiones.texto, e.target, 'texto');
+
     }
 }
 
@@ -75,3 +78,6 @@ formulario.addEventListener('submit', (e) => {
         document.getElementById('formulario__mensaje').classList.add('formulario__mensaje-activo');
     }
 });
+
+
+/*VALIDAR TEXTAREA*/
