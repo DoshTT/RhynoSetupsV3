@@ -1,0 +1,29 @@
+{
+    "builds": [
+
+        {
+            "nombre": "Intel-1",
+            "precio": "$650.000",
+            "carac": "Intel i3 9na Gen, Nvidia 1650, 16GB Ram, 1TB SSD"
+        },
+
+        {
+            "nombre": "Ryzen-1",
+            "precio": "$700.000",
+            "carac": "Ryzen 5 5600x, Nvidia 1650, 16GB Ram, 512GB SSD"
+        },
+
+        {
+            "nombre": "Intel-2",
+            "precio": "$950.000",
+            "carac": "Intel i7 10ma Gen, Nvidia 2060, 16GB Ram, 1TB SSD"
+        },
+
+        {
+            "nombre": "Ryzen-2",
+            "precio": "$1.050.000",
+            "carac": "Ryzen 7 5800x, Nvidia 2060S, 16GB Ram, 1TB SSD"
+        }
+
+    ]
+}
