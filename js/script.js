@@ -1,15 +1,40 @@
-(function() {
-    'use strict'
-    const forms = document.querySelectorAll('.requires-validation')
-    Array.from(forms)
-        .forEach(function(form) {
-            form.addEventListener('submit', function(event) {
-                if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                }
+/* VALIDACION CON JQUERY REGISTRO E INICIO DE SESION*/
+jQuery.validator.addMethod("customEmail", function(value, element) {
+    return this.optional(element) || /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(value);
+}, "Please enter valid email address!");
+$(document).ready(function() {
+    $("#registration").validate({
+        rules: {
+            nombres: {
+                required: true
+            },
 
-                form.classList.add('se validó el dato')
-            }, false)
-        })
-})()
+            apellidos: {
+                required: true
+            },
+
+            correo: {
+                required: true,
+                customEmail: true
+            },
+
+            password: {
+                required: true
+            },
+            confirm: {
+                required: true,
+                equalTo: '#password'
+            }
+        },
+
+        messages: {
+            nombres: "Por favor ingrese su nombre"
+
+        },
+    })
+
+
+    $('#btn').click(function() {
+        $("#registration").validate();
+    });
+});
