@@ -77,3 +77,19 @@
     color: red;
     font-style: italic;
 }
+
+#spnError {
+    text-align: center;
+    color: rgb(246, 255, 0)
+}
+
+@media(max-width:425px) {
+    #inicio-sesion {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
