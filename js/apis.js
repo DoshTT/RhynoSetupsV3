@@ -26,6 +26,7 @@ function traerDatos() {
             res.innerHTML = '';
 
             for (let item of builds) {
+                // console.log(item.nombre);
                 res.innerHTML += `
                     <tr>
                         <td>${item.nombre}</td>
