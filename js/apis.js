@@ -25,29 +25,16 @@ function traerDatos() {
 
             res.innerHTML = '';
 
-            for (let item of Object.keys(datos)) {
+            for (let item of builds) {
                 // console.log(item.nombre);
                 res.innerHTML += `
-                <tr>
-                    <td>Intel-1</td>
-                    <td>$650.000</td>
-                    <td>Intel i3 9na Gen, Nvidia 1650, 16GB Ram, 1TB SSD</td>
-                </tr>
-                <tr>
-                    <td>Ryzen-1</td>
-                    <td>$700.000</td>
-                    <td>Ryzen 5 5600x, Nvidia 1650, 16GB Ram, 512GB SSD</td>
-                </tr>
-                <tr>
-                    <td>Intel-2</td>
-                    <td>$950.000</td>
-                    <td>Intel i7 10ma Gen, Nvidia 2060, 16GB Ram, 1TB SSD</td>
-                </tr>
-                <tr>
-                    <td>Ryzen-2</td>
-                    <td>$1.050.000</td>
-                    <td>Ryzen 7 5800x, Nvidia 2060S, 16GB Ram, 1TB SSD</td>
-                </tr>
+                    <tr>
+                        <td>${item.nombre}</td>
+                        <td>${item.precio}</td>
+                        <td>${item.carac}</td>
+                    </tr>
+
+
                 `
             }
         }
