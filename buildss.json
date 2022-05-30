@@ -23,6 +23,19 @@
             "nombre": "Ryzen-2",
             "precio": "$1.050.000",
             "carac": "Ryzen 7 5800x, Nvidia 2060S, 16GB Ram, 1TB SSD"
+        },
+
+
+        {
+            "nombre": "Intel-3",
+            "precio": "$1.200.000",
+            "carac": "Intel I9 12va Gen, Nvidia 3070, 16GB Ram, 1TB HD, 1TB SSD"
+        },
+
+        {
+            "nombre": "Ryzen-3",
+            "precio": "1.150.000",
+            "carac": "Ryzen 9 5900x, Nvidia 3070, 16GB Ram, 1TB HD, 1TB SS"
         }
 
     ]
